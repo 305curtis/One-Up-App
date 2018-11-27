@@ -30,3 +30,11 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  line-height: 2;
+  font-size: 18px;
+  height: auto;
+  padding-left: 20px;
+}
+  
