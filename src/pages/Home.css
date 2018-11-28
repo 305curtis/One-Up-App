@@ -1,3 +1,27 @@
+
+
+/*
+ * Base structure
+ */
+
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
 .topped {
-    padding: 60px 15px 0;
+    padding: 70px 15px 0;
 }
