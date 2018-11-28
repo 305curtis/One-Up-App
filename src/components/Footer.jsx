@@ -7,7 +7,9 @@ class Footer extends Component {
         return (
             <footer className="footer fixed-bottom">
                 <div className="container justify-content-md-center">
-                    <span className="text-muted justify-content-md-center"><Link to='/'>One-Up Feature &#169; {new Date().getFullYear()}</Link></span>
+                    <span className="text-muted justify-content-md-center">
+                        <Link to='/'>One-Up Feature &#169; {new Date().getFullYear()}</Link>
+                    </span>
                 </div>
             </footer>
         );
