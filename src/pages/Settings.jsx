@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 import Modal from 'react-modal';
@@ -62,7 +63,7 @@ class Settings extends Component {
                                 >
                                     <div>Require a security lock to control your purchase requests?</div>
                                     <form>
-                                        <button>Yes</button>
+                                        <Link to='/Security'> <button>Yes</button> </Link>
                                         <button onClick={this.closeModal}>Cancel</button>
                                     </form>
                                 </Modal>
