@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
-import './Home.css'
+import Modal from 'react-modal';
 
-class Home extends Component {
+class Success extends Component {
     render() {
         return (
             <div>
@@ -12,8 +12,8 @@ class Home extends Component {
                 <div className="container topped text-center">
                 <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
                 <main role="main" className="inner cover">
-                    <h1 className="cover-heading">Enable One-Up Security</h1>
-                    <p className="lead">The One-Up security feature gives credit/debit card users the ability to accept or deny purchases via the cell-phone/device.</p>
+                    <h1 className="cover-heading">Success</h1>
+                    <p className="lead">You're all set! You are now able to allow or deny purchases via your cell phone using the one-up feature. Thank you for choosing one-up, have a nice day!</p>
                     <p className="lead">
                     <Link to="Settings">
                         <button className="btn btn-lg btn-secondary">Get Started</button>
@@ -30,4 +30,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default Success;

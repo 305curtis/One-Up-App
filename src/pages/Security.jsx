@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 
@@ -47,7 +48,7 @@ class Security extends Component {
                             </div>
                         </div>
                         <small className="d-block text-right mt-3">
-                            <a href="#">Advanced Settings</a>
+                            <Link to="Settings">Back To Settings</Link>
                         </small>
                     </div>
                     </div>
