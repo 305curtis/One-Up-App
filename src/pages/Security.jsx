@@ -15,7 +15,7 @@ class Security extends Component {
                             <div className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                                 <div className="d-flex justify-content-between align-items-center w-100">
                                     <strong className="text-gray-dark">Fingerprint </strong>
-                                    <button >Turn On</button>
+                                    <Link to="Fingerprint"><button >Turn On</button></Link>
                                 </div>
                                 <span className="d-block">Enable security fingerprint feature</span>
                             </div>
@@ -24,7 +24,7 @@ class Security extends Component {
                             <div className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                                 <div className="d-flex justify-content-between align-items-center w-100">
                                     <strong className="text-gray-dark">Password</strong>
-                                    <button >Turn On</button>
+                                    <Link to="Password"><button >Turn On</button></Link>
                                 </div>
                                 <span className="d-block">Choose a security password</span>
                             </div>
@@ -33,7 +33,7 @@ class Security extends Component {
                             <div className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                                 <div className="d-flex justify-content-between align-items-center w-100">
                                     <strong className="text-gray-dark">Pattern</strong>
-                                    <button >Turn On</button>
+                                    <Link to="Pattern"><button >Turn On</button></Link>
                                 </div>
                                 <span className="d-block">Choose a security pattern</span>
                             </div>
@@ -42,7 +42,7 @@ class Security extends Component {
                             <div className="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
                                 <div className="d-flex justify-content-between align-items-center w-100">
                                     <strong className="text-gray-dark">Pincode</strong>
-                                    <button >Turn On</button>
+                                    <Link to="Pincode"><button >Turn On</button></Link>
                                 </div>
                                 <span className="d-block">Choose a security pincode</span>
                             </div>
