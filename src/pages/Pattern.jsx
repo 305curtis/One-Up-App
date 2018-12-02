@@ -6,7 +6,14 @@ import Modal from 'react-modal';
 
 
 class Pattern extends Component {
-
+    render() {
+        return (
+            <div>
+                <Navbar />
+                <Footer />
+            </div>
+        );
+    }
 }
 
 export default Pattern;

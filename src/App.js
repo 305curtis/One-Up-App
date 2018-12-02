@@ -21,13 +21,13 @@ class App extends Component {
           <Route exact path="/" component={Home}/>
           <Route path="/Settings" component={Settings}/>
           <Route path="/Security" component={Security}/>
-          <Route path="Fingerprint" component={Fingerprint}/>
-          <Route path="Password" component={Password}/>
-          <Route path="Pattern" component={Pattern}/>
-          <Route path="Pincode" component={Pincode}/>
-          <Route path="Phone" component={Phone}/>
-          <Route path="Code" component={Code}/>
-          <Route path="Success" component={Success}/>
+          <Route path="/Fingerprint" component={Fingerprint}/>
+          <Route path="/Password" component={Password}/>
+          <Route path="/Pattern" component={Pattern}/>
+          <Route path="/Pincode" component={Pincode}/>
+          <Route path="/Phone" component={Phone}/>
+          <Route path="/Code" component={Code}/>
+          <Route path="/Success" component={Success}/>
         </div>
       </Router>
     );

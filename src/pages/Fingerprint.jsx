@@ -5,7 +5,14 @@ import Footer from '../components/Footer.jsx';
 import Modal from 'react-modal';
 
 class Fingerprint extends Component {
-
+    render() {
+        return (
+            <div>
+                <Navbar />
+                <Footer />
+            </div>
+        );
+    }
 }
 
 export default Fingerprint;
