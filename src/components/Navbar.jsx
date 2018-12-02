@@ -19,9 +19,6 @@ class Navbar extends Component {
                             <li className="nav-item">
                                 <Link className="nav-link" to="Settings">Settings</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link disabled" to="#">Disabled</Link>
-                            </li>
                         </ul>
                     </div>
                 </div>
