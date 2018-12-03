@@ -5,7 +5,7 @@ import Footer from '../components/Footer.jsx';
 import Modal from 'react-modal';
 import './Fingerprint.css';
 
-class Fingerprint extends Component {
+class FingerprintConfirm extends Component {
     render() {
         return (
             <div>
@@ -13,11 +13,11 @@ class Fingerprint extends Component {
                 <div className="container topped text-center">
                 <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
                 <main role="main" className="inner cover">
-                    <h1 className="cover-heading">Fingerprint</h1>
-                    <p className="lead">Place your security finger, that you would like to use to either Authorize or Not Authorize a purchase to go through, in the section at the bottom of the page.</p>
+                    <h1 className="cover-heading">Please Confirm Your Fingerprint</h1>
+                    <p className="lead">Place your chosen security lock finger, from the page before, in the section at the bottom of the page.</p>
                     <h3 className="cover-heading">Place Fingerprint Here:</h3>
                     <p className="lead">
-                    <Link to="Fingerprint_Confirm">
+                    <Link to="Phone">
                         <button className="fingur"></button>
                     </Link>
                    
@@ -32,4 +32,4 @@ class Fingerprint extends Component {
     }
 }
 
-export default Fingerprint;
+export default FingerprintConfirm;
