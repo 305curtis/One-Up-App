@@ -1,6 +1,10 @@
 {
   "name": "one_up",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://305curtis.github.io/One-Up-App/"
+  },
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
