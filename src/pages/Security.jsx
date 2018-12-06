@@ -52,7 +52,7 @@ class Security extends Component {
                         </small>
                     </div>
                     </div>
-                <Footer />
+                {/* <Footer /> */}
             </div>
         )
     }

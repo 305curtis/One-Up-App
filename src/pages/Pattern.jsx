@@ -10,7 +10,7 @@ class Pattern extends Component {
         return (
             <div>
                 <Navbar />
-                <Footer />
+                {/* <Footer /> */}
             </div>
         );
     }

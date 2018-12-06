@@ -13,7 +13,7 @@ class Home extends Component {
                 <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
                 <main role="main" className="inner cover">
                     <h1 className="cover-heading">Enable One-Up Security</h1>
-                    <p className="lead">The One-Up security feature gives credit/debit card users the ability to accept or deny purchases via the cell-phone/device.</p>
+                    <p className="lead">The One-Up security feature gives credit/debit card users the ability to accept or deny purchases via the cell phone.</p>
                     <p className="lead">
                     <Link to="Settings">
                         <button className="btn btn-lg btn-secondary">Get Started</button>
@@ -24,7 +24,7 @@ class Home extends Component {
                 </div>
                 </div>
                 <div className="container"></div>
-                <Footer className="fixed-bottom"/>
+                {/* <Footer className="fixed-bottom"/> */}
             </div>
         );
     }

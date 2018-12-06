@@ -26,7 +26,6 @@ class FingerprintConfirm extends Component {
                 </div>
                 </div>
                 <div className="container"></div>
-                <Footer />
             </div>
         );
     }

@@ -32,7 +32,7 @@ class Phone extends Component {
                 </div>
                 </div>
                 <div className="container"></div>
-                <Footer className="fixed-bottom"/>
+                {/* <Footer className="fixed-bottom"/> */}
             </div>        
         );
     }

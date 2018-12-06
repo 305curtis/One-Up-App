@@ -26,7 +26,6 @@ class Fingerprint extends Component {
                 </div>
                 </div>
                 <div className="container"></div>
-                <Footer />
             </div>
         );
     }

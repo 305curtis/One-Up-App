@@ -39,7 +39,6 @@ class Login extends Component {
                         </Link>
                     </div>
                 </MuiThemeProvider>
-                <Footer />
             </div>
         );
     }
