@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
-import './Home.css'
+import Modal from 'react-modal';
+import './Fingerprint.css';
 
-class Home extends Component {
+class Fingerprint extends Component {
     render() {
         return (
             <div>
@@ -12,11 +13,12 @@ class Home extends Component {
                 <div className="container topped text-center">
                 <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
                 <main role="main" className="inner cover">
-                    <h1 className="cover-heading">Enable One-Up Security</h1>
-                    <p className="lead">The One-Up security feature gives credit/debit card users the ability to accept or deny purchases via the cell phone.</p>
+                    <h1 className="cover-heading">Fingerprint</h1>
+                    <p className="lead">Place your security finger, that you would like to use to either Authorize or Not Authorize a purchase to go through, in the section at the bottom of the page.</p>
+                    <h3 className="cover-heading">Place Fingerprint Here:</h3>
                     <p className="lead">
-                    <Link to="Settings">
-                        <button className="btn btn-lg btn-secondary">Get Started</button>
+                    <Link to="Fingerprint_Confirm">
+                        <button className="fingur"></button>
                     </Link>
                    
                     </p>
@@ -24,10 +26,9 @@ class Home extends Component {
                 </div>
                 </div>
                 <div className="container"></div>
-                {/* <Footer className="fixed-bottom"/> */}
             </div>
         );
     }
 }
 
-export default Home;
+export default Fingerprint;

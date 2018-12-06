@@ -93,7 +93,7 @@ class Settings extends Component {
                         </small>
                     </div>
                     </div>
-                <Footer />
+                {/* <Footer /> */}
             </div>
         );
     }

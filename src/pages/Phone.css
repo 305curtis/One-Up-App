@@ -1,0 +1,23 @@
+.phonecenter {
+    max-width: 330px;
+    margin: 15px auto;
+    padding: 15px;
+}
+.midpoint {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.somethin {
+    max-width: 350px;
+    padding-top: 85px;
+    margin: 15px auto;
+}
+.texts {
+    width: 100%;
+    text-align: center;
+}
+.somethinelse {
+    width: 330px;
+    margin: 10px auto;
+}
