@@ -34,7 +34,7 @@ class Login extends Component {
                             floatingLabelText="Password"
                         />
                         <br/>
-                        <Link to="/">
+                        <Link to="/Home">
                         <button className="btn btn-lg btn-secondary">Sign In</button>
                         </Link>
                     </div>

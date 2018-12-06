@@ -20,7 +20,8 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Route exact path="/" component={Home}/>
+          <Route exact path="/" component={Login}/>
+          <Route path="/Home" component={Home}/>
           <Route path="/Settings" component={Settings}/>
           <Route path="/Security" component={Security}/>
           <Route path="/Fingerprint" component={Fingerprint}/>
