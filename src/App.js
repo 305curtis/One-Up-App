@@ -13,6 +13,7 @@ import Phone from './pages/Phone';
 import Code from './pages/Code';
 import Success from './pages/Success';
 import FingerprintConfirm from './pages/Fingerprint_Confirm';
+import Login from './pages/Login';
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
           <Route path="/Code" component={Code}/>
           <Route path="/Success" component={Success}/>
           <Route path="/Fingerprint_Confirm" component={FingerprintConfirm}/>
+          <Route path="/Login" component={Login}/>
         </div>
       </Router>
     );
